@@ -8,6 +8,8 @@ body{
 	width: 100%auto;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:300;
+	color:white;
+	font-size: 1em;
 }
 
 h1, h2, h3, h4{
@@ -40,16 +42,35 @@ h2{
 h3{
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing:0.1em;
-	color:rgba(178,8,69,1);
+	color:rgba(255,255,255,1);
 	padding:1em 0 0.6em 0;
 	text-shadow: 0px 0px 0 #ccc;
 	text-align:center;
-	font-size: 2em
+	font-size: 3em
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing:0.1em;
+	color:rgba(255,255,255,1);
+	padding:1em 0 0.6em 0;
+	text-shadow: 0px 0px 0 #ccc;
+	text-align:center;
+	font-size: 6em
 }
 
 h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
 	font-weight:left;
 	font-weight:600;
+	color:white;
+	font-size: 2em;
+}
+h7{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:left;
+	font-weight:600;
+	color:white;
+	font-size: 1.3em;
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -244,7 +265,7 @@ body {
 
 .item h4{
 	font-family: 'Covered By Your Grace', cursive;
-	font-size:1.7em;
+	font-size:3em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
 	color: rgb(178,8,68);
